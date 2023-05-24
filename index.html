@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bus Arrival App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Bus Arrival App</h1>
+		<div class="search-container">
+			<input type="text" id="bus-stop-input" placeholder="Enter Bus Stop ID">
+			<button id="search-button">Show Arrivals</button>
+		</div>
+		<table id="bus-arrival-table" style="display: none;">
+			<thead>
+				<tr>
+					<th>Bus No.</th>
+					<th>Operator</th>
+					<th>Next Arrival</th>
+				</tr>
+			</thead>
+			<tbody id="bus-arrival-body">
+				<!-- Bus arrival data will be dynamically populated here -->
+			</tbody>
+		</table>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

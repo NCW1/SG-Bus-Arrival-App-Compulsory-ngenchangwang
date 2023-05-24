@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.search-container {
+	margin-bottom: 20px;
+}
+
+#bus-stop-input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#search-button {
+	padding: 10px 20px;
+	background-color: #1e90ff;
+	border: none;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#bus-arrival-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#bus-arrival-table th,
+#bus-arrival-table td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+#bus-arrival-table th {
+	background-color: #f2f2f2;
+}
